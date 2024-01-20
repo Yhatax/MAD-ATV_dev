@@ -34,7 +34,7 @@ mount -o rw,remount /
 
 # update_mad.sh aka update_mad_a9.sh
 log "Downloading update_mad_a9.sh"
-download https://raw.githubusercontent.com/JabLuszko/MAD-ATV_dev/main/update_mad_a9.sh /system/bin/update_mad_a9.sh
+download https://raw.githubusercontent.com/Yhatax/MAD-ATV_dev/main/update_mad_a9.sh /system/bin/update_mad_a9.sh
 log "Downloaded update_mad_a9.sh"
 chmod 755 /system/bin/update_mad_a9.sh
 log "chmod'ed update_mad_a9.sh"
@@ -44,7 +44,7 @@ log "symlink for /system/bin/update_mad.sh created"
 
 # 59MAD
 log "Downloading 59MAD"
-download https://raw.githubusercontent.com/JabLuszko/MAD-ATV_dev/main/59MAD /etc/init.d/59MAD
+download https://raw.githubusercontent.com/Yhatax/MAD-ATV_dev/main/59MAD /etc/init.d/59MAD
 log "Downloaded 59MAD"
 chmod 755 /etc/init.d/59MAD
 log "chmod'ed 59MAD"
